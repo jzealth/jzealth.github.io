@@ -1,0 +1,37 @@
+.btn {
+   font-family: $roboto;
+   font-weight: 700;
+
+   &:hover, &:active, &:focus {
+      color: $brand-color;
+      outline: none;
+   }
+   &:hover {
+      cursor: pointer;
+      opacity: 0.6;
+      text-decoration: none;
+   }
+}
+
+.btn-primary {
+   background-color: $brand-color;
+   border-color: $brand-color;
+   color: white;
+   &:hover, &:active, &:focus {
+      background-color: $brand-color;
+      border-color: $brand-color;
+      color: white;
+      outline: none;
+   }
+}
+
+footer .btn {
+   margin-top: $padding-lg / 4;
+   padding: .75rem 6rem;
+}
+
+//LINK STYLING
+a .btn {
+   background-color: $brand-color;
+   border: none;
+}

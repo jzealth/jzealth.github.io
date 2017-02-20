@@ -1,0 +1,79 @@
+//COLORS
+$brand-color: #f32043;
+$light-gray: #e3e3e3;
+$headline-color: #2a2a2a;
+$text-color: #4a4a4a;
+
+//FONTS
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,400,500,700');
+$roboto: 'Roboto', sans-serif;
+$roboto-slab: 'Roboto Slab', 'Robot', sans-serif;
+
+//DIMENSIONS
+$padding-lg: 100px;
+
+@import 'buttons';
+@import 'navbar';
+@import 'text';
+
+
+header {
+   border-bottom: 1px solid $light-gray;
+   .col-lg-10 > .row {
+      padding-bottom: $padding-lg;
+   }
+}
+footer {
+   text-align: center;
+   border-top: 1px solid $light-gray;
+   .col-lg-10 > .row {
+      padding: $padding-lg 0;
+   }
+}
+
+
+#main .col-lg-10 > .row {
+   padding-bottom: $padding-lg;
+   &:first-child {
+      padding-top: $padding-lg;
+   }
+}
+
+.product-img {
+   width: 65%;
+   height: auto;
+   margin: 0 auto;
+   display: block;
+}
+.product-icon {
+   width: 80px;
+   margin: 0 auto 20px;
+   display: block;
+}
+header .product-img {
+   width: 100%;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+   #main .product-img {
+      width: 50%;
+   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+   #main .product-img {
+      width: 100%;
+   }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { }
