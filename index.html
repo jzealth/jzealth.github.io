@@ -84,14 +84,127 @@
 							<div class="col-10">
 								<h2>Zealth works with your systems and specialty.</h2>
 								<p>We connect to most EHRs and have doctors in every major medical speciality.  We typically setup and personalize Zealth for your practice in less than an hour.</p>
-								<form action="mailto:contact@zealth.me" method="GET">
-								    <button type="button submit" class="btn btn-primary btn-lg">Get a demo</button>
-								</form>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModalLong">Get a demo</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
+		<!-- Modal -->
+								<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+									      <div class="container">
+												<div class="row">
+													<div class="col-md-12 col-lg-11 title-wrapper">
+							        					<h1 class="modal-title" id="exampleModalLongTitle">Fill out the form below,
+and we’ll contact you shortly.</h1>
+													</div>
+												</div>
+											</div>
+											<!-- Hide Close Button -->
+								        	<!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								         	<span aria-hidden="true">&times;</span>
+								        	</button> -->
+								      </div>
+								      <div class="modal-body">
+											<div class="container">
+												<div class="row justify-content-between">
+													<div class="col-md-11 form-wrapper">
+														<form method="POST" action="http://formspree.io/justin@zealth.me">
+															<!-- Full Name -->
+															<div class="form-group">
+																<label for="inputFullName">Full name</label>
+																<input type="text" class="form-control" id="inputFullName">
+															</div>
+															<!-- Practice Name -->
+													   	<div class="form-group">
+													   		<label for="inputPracticeName">Practice name</label>
+																<input type="text" class="form-control" id="inputPracticeName">
+													    	</div>
+													    	<!-- Specialty -->
+													   	<div class="form-group">
+													   		<label for="inputSpecialty">Specialty</label>
+																<select class="form-control" id="inputSpecialty" placeholder="Select a specialty">
+																  <option value="allergist">Allergist</option>
+																  <option value="anesthesiologist">Anesthesiologist</option>
+																  <option value="cardiologist">Cardiologist</option>
+																  <option value="chiropractor">Chiropractor</option>
+																  <option value="dentist">Dentist</option>
+																  <option value="dermatologist">Dermatologist</option>
+																  <option value="ear-nose-throat">Ear, Nose, & Throat</option>
+																  <option value="endocrinologist">Endocrinologist</option>
+																  <option value="endodontist">Endodontist</option>
+																  <option value="family-medicine">Family medicine</option>
+																  <option value="hematologist">Hematologist</option>
+																  <option value="immunologist">Immunologist</option>
+																  <option value="infectious-disease">Infectious diseases</option>
+																  <option value="internist">Internist</option>
+																  <option value="neurologist">Neurologist</option>
+																  <option value="neurosurgeon">Neurosurgeon</option>
+																  <option value="nutritionist">Nutritionist</option>
+																  <option value="ob-gyn">OB/GYN</option>
+																  <option value="oncologist">Oncologist</option>
+																  <option value="opthalmologist">Opthalmologist</option>
+																  <option value="optometrist">Optometrist</option>
+																  <option value="oral-surgeon">Oral Surgeon</option>
+																  <option value="orthodontist">Orthodontist</option>
+																  <option value="orthopedic-surgeon">Orthopedic Surgeon</option>
+																  <option value="pathologist">Pathologist</option>
+																  <option value="pediatrician">Pediatrican</option>
+																  <option value="periodontist">Periodontist</option>
+																  <option value="physical-therapist">Physical Therapist</option>
+																  <option value="plastic-surgeon">Plastic Surgeon</option>
+																  <option value="podiatrist">Podiatrist</option>
+																  <option value="preventative-medicine">Preventative medicine</option>
+																  <option value="primary-medicine">Primary medicine</option>
+																  <option value="psychiatrist">Psychiatrist</option>
+																  <option value="psychologist">Psychologist</option>
+																  <option value="radiologist">Radiologist</option>
+																  <option value="sports-medicine">Sports medicine</option>
+																  <option value="surgeon">Surgeon</option>
+																  <option value="urologist">Urologist</option>
+																  <option value="other">Other</option>
+																</select>
+													    	</div>
+													    	<!-- Phone -->
+													   	<div class="form-group">
+													   		<label for="inputPhone">Phone Number</label>
+																<input type="text" class="form-control" id="inputPhone">
+													    	</div>
+													    	<!-- Practice Zip Code -->
+													   	<div class="form-group">
+													   		<label for="inputPracticeZip">Zip code</label>
+																<input type="text" class="form-control" id="inputPracticeZip">
+													    	</div>
+													    	<!-- Email -->
+													   	<div class="form-group">
+													   		<label for="inputEmail">Email address</label>
+																<input type="text" class="form-control" id="inputEmail">
+													    	</div>
+													    	<!-- EMR -->
+													   	<div class="form-group">
+													   		<label for="inputEMR">What EMR do you use?</label>
+																<input type="text" class="form-control" id="inputEMR">
+													    	</div>
+													    	<!-- # Physicians -->
+													   	<div class="form-group">
+													   		<label for="inputPhysicians">How many physicians do you have?</label>
+																<input type="text" class="form-control" id="inputPhysicians">
+													    	</div>
+															<div class="form-group">
+																<button type="submit" class="btn btn-primary">Submit</button>
+													    	</div>
+													 	</form>
+													</div>
+												</div>
+											</div>
+								      </div>
+								    </div>
+								  </div>
+								</div>
 	</body>
 </html>

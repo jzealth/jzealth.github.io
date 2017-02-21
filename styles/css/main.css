@@ -3,46 +3,43 @@
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
+  box-shadow: 0 0 0 transparent;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
 }
 
-/* line 5, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
+/* line 8, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
 .btn:hover, .btn:active, .btn:focus {
   color: #f32043;
-  outline: none;
+  box-shadow: 0 0 0 transparent;
 }
 
-/* line 9, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
+/* line 12, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
 .btn:hover {
   cursor: pointer;
   opacity: 0.6;
   text-decoration: none;
 }
 
-/* line 16, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
+/* line 19, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
 .btn-primary {
   background-color: #f32043;
   border-color: #f32043;
   color: white;
 }
 
-/* line 20, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
+/* line 23, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
 .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
   background-color: #f32043;
   border-color: #f32043;
   color: white;
-  outline: none;
 }
 
-/* line 28, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
+/* line 30, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
 footer .btn {
   margin-top: 25px;
-  padding: .75rem 6rem;
-}
-
-/* line 34, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_buttons.scss */
-a .btn {
-  background-color: #f32043;
-  border: none;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 /* line 4, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_navbar.scss */
@@ -130,38 +127,148 @@ p {
   }
 }
 
-/* line 20, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 2, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal label {
+  width: 100%;
+  text-align: left;
+}
+
+/* line 7, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal .form-wrapper, .modal .action-wrapper, .modal .title-wrapper {
+  margin: 0 auto;
+}
+
+/* line 11, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal .modal-header, .modal .modal-footer {
+  border: 0;
+}
+
+/* line 16, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal .modal-header .modal-title {
+  margin: 30px auto 15px;
+  line-height: 1.3;
+}
+
+/* line 21, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal .modal-footer {
+  padding: 0 15px 60px;
+}
+
+/* line 24, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal .modal-footer .container {
+  width: 100%;
+}
+
+/* line 29, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal .form-group label {
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 32, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal input {
+  border-color: #d6d6d6;
+}
+
+/* line 35, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal input:focus, .modal input:active {
+  border-color: #f32043;
+}
+
+/* line 39, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal select:focus, .modal select:active {
+  border-color: #f32043;
+}
+
+/* line 43, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal button {
+  width: 100%;
+}
+
+/* line 46, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal .btn-primary {
+  margin-bottom: 10px;
+}
+
+/* line 49, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+.modal .btn-secondary {
+  color: #6d6d6d;
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  /* line 56, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+  .modal-title {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 61, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+  .modal-dialog {
+    max-width: 540px;
+  }
+  /* line 64, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+  .modal-title {
+    font-size: 1.85rem;
+  }
+  /* line 67, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+  .btn-primary {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 72, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+  h1 {
+    width: 100%;
+  }
+  /* line 75, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+  h2 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  /* line 79, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+  p {
+    font-size: 0.9rem;
+  }
+  /* line 82, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/_modal.scss */
+  .modal-title {
+    font-size: 2rem;
+  }
+}
+
+/* line 21, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 header {
   border-bottom: 1px solid #e3e3e3;
 }
 
-/* line 22, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 23, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 header .col-lg-10 > .row {
   padding-bottom: 100px;
 }
 
-/* line 26, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 27, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 footer {
   text-align: center;
   border-top: 1px solid #e3e3e3;
 }
 
-/* line 29, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 30, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 footer .col-lg-10 > .row {
   padding: 100px 0;
 }
 
-/* line 35, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 36, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 #main .col-lg-10 > .row {
   padding-bottom: 100px;
 }
 
-/* line 37, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 38, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 #main .col-lg-10 > .row:first-child {
   padding-top: 100px;
 }
 
-/* line 42, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 43, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 .product-img {
   width: 65%;
   height: auto;
@@ -169,27 +276,27 @@ footer .col-lg-10 > .row {
   display: block;
 }
 
-/* line 48, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 49, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 .product-icon {
   width: 80px;
   margin: 0 auto 20px;
   display: block;
 }
 
-/* line 53, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+/* line 54, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
 header .product-img {
   width: 100%;
 }
 
 @media (min-width: 576px) {
-  /* line 63, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+  /* line 64, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
   #main .product-img {
     width: 50%;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 70, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
+  /* line 71, /Users/ating/Dropbox/Projects/Zealth/Zealth.com/styles/_sass/main.scss */
   #main .product-img {
     width: 100%;
   }
